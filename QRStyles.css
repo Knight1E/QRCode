@@ -1,0 +1,53 @@
+/*Style Guide Stuff*/
+:root {
+    --BWhite: hsl(0, 0%, 100%);
+    --LGray: hsl(212, 45%, 89%);
+    --GBlue: hsl(220, 15%, 55%);
+    --DBlue: hsl(218, 44%, 22%);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: var(--LGray);
+    text-align: center;
+    color: var(--DBlue);
+}
+
+p {
+    font-weight: 400;
+    color: var(--GBlue);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*Div Stuff*/
+.attribution {
+    margin: 2.5vh;
+}
+.white-box {
+    background-color: var(--BWhite);
+    width: 360px;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.white-box-content {
+    margin: 10%;
+}
+
+.QRImage {
+    border-radius: 25px;
+}
